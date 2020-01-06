@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import QuoteBox from './components/quote-box/quote-box.component'
 import LoadingSpinner from './components/loading-spinner/loading-spinner.component'
+import { AppContainer } from './App.styles'
 
 class App extends Component {
   constructor(props) {
@@ -11,7 +12,9 @@ class App extends Component {
       quote: '',
       author: '',
       isLoading: true,
-      error: null
+      error: null,
+      bgColor: '#a29bfe',
+      cardBgColor: '#ff7675'
     }
   }
   dataFetching = null;
@@ -43,10 +46,18 @@ class App extends Component {
 
   getRandomQuote = (event) => {
     event.preventDefault();
-    let randomQuote = this.state.data[Math.floor(Math.random() * this.state.data.length)]
+    let randomQuote = this.state.data[Math.floor(Math.random() * this.state.data.length)];
+    const color = ['#385a7c', '#f97171', '#f99192', '#8ad6cc', '#4834d4'];
+    let randcol = color[Math.floor(Math.random() * color.length)];
+
+    const cardColor = ['#f9ca24', '#ffbe76', '#f99192', '#badc58', '#6ab04c'];
+    let randCardCol = cardColor[Math.floor(Math.random() * cardColor.length)];
+
     this.setState({
       quote: randomQuote.quote,
-      author: randomQuote.author
+      author: randomQuote.author,
+      bgColor: randcol,
+      cardBgColor: randCardCol
     }) 
     
   }
@@ -69,13 +80,13 @@ class App extends Component {
   render() {
     const { quote, author, isLoading } = this.state
     return (
-      <div>
-        <h1>Post something on Twitter today!</h1>
+      <AppContainer color={this.state.bgColor}>
         {
           !isLoading ? (
             <QuoteBox 
             quote={quote}
             author={author}
+            bgColor={this.state.cardBgColor}
             getRandomQuote={this.getRandomQuote}
             onClickShareWithTwitter={this.onClickShareWithTwitter}
           />
@@ -83,7 +94,7 @@ class App extends Component {
             <LoadingSpinner />
           )
         }
-      </div>
+      </AppContainer>
     )
   }
 }
