@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/random-quote-machine.github.io/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/random-quote-machine.github.io/static/js/main.3f7e7324.chunk.js",
-    "main.js.map": "/random-quote-machine.github.io/static/js/main.3f7e7324.chunk.js.map",
-    "runtime-main.js": "/random-quote-machine.github.io/static/js/runtime-main.7bd29f31.js",
-    "runtime-main.js.map": "/random-quote-machine.github.io/static/js/runtime-main.7bd29f31.js.map",
-    "static/js/2.e70d0d2c.chunk.js": "/random-quote-machine.github.io/static/js/2.e70d0d2c.chunk.js",
-    "static/js/2.e70d0d2c.chunk.js.map": "/random-quote-machine.github.io/static/js/2.e70d0d2c.chunk.js.map",
-    "index.html": "/random-quote-machine.github.io/index.html",
-    "precache-manifest.d17999621810782791fd3ca6ae003f34.js": "/random-quote-machine.github.io/precache-manifest.d17999621810782791fd3ca6ae003f34.js",
-    "service-worker.js": "/random-quote-machine.github.io/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/random-quote-machine.github.io/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.e70d0d2c.chunk.js.LICENSE": "/random-quote-machine.github.io/static/js/2.e70d0d2c.chunk.js.LICENSE"
+    "main.css": "/random-quote-machine/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/random-quote-machine/static/js/main.f693759d.chunk.js",
+    "main.js.map": "/random-quote-machine/static/js/main.f693759d.chunk.js.map",
+    "runtime-main.js": "/random-quote-machine/static/js/runtime-main.19882ef4.js",
+    "runtime-main.js.map": "/random-quote-machine/static/js/runtime-main.19882ef4.js.map",
+    "static/js/2.faa4e176.chunk.js": "/random-quote-machine/static/js/2.faa4e176.chunk.js",
+    "static/js/2.faa4e176.chunk.js.map": "/random-quote-machine/static/js/2.faa4e176.chunk.js.map",
+    "index.html": "/random-quote-machine/index.html",
+    "precache-manifest.fe415252a1e759f4679ffc40ef36dedb.js": "/random-quote-machine/precache-manifest.fe415252a1e759f4679ffc40ef36dedb.js",
+    "service-worker.js": "/random-quote-machine/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/random-quote-machine/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.faa4e176.chunk.js.LICENSE": "/random-quote-machine/static/js/2.faa4e176.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.7bd29f31.js",
-    "static/js/2.e70d0d2c.chunk.js",
+    "static/js/runtime-main.19882ef4.js",
+    "static/js/2.faa4e176.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.3f7e7324.chunk.js"
+    "static/js/main.f693759d.chunk.js"
   ]
 }
